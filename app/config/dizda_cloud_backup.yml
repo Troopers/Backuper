@@ -1,0 +1,11 @@
+dizda_cloud_backup:
+    processor:
+        type: 7z
+
+    cloud_storages:
+        gaufrette:
+            service_name:
+                - millenium_filesystem
+
+    databases:
+        mysql:

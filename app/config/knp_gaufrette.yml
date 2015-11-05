@@ -1,0 +1,12 @@
+knp_gaufrette:
+    adapters:
+        millenium:
+            sftp:
+                sftp_id: backup.sftp
+                directory: %backup.directory%
+                create: true
+
+    filesystems:
+        millenium:
+            adapter:    millenium
+            alias:      millenium_filesystem

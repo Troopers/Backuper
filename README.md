@@ -13,7 +13,9 @@ Then, add this kind of crontab job:
 
 You need to have the ssh2 extension and 7z.
 
-### Ubuntu
+### Ubuntu / Debian
 ```
 sudo apt-get install php5-ssh2 p7zip-full
+or
+sudo apt-get install php7.0-ssh2 p7zip-full
 ```
